@@ -25,20 +25,6 @@ A full-stack product inventory management system built with FastAPI (backend) an
 ## Project Structure
 ## Getting Started
 
-### Backend
-
-```bash
-# Create virtual environment
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-
-# Install dependencies
-pip install fastapi uvicorn sqlalchemy psycopg2-binary
-
-# Run the server
-uvicorn main:app --reload
-```
-
 Backend runs on `http://localhost:8000`
 
 ### Frontend
